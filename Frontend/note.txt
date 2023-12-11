@@ -1,0 +1,2 @@
+1. Xử lý SVG dùng Next/image
+2. Khi lần đầu khởi chạy dự án hiển thị lâu vì nó phải load tất cả, sau đó thì sẽ k cần

@@ -1,0 +1,11 @@
+.cus-nav {
+  height: calc(100vh - 32px); //32 = logout btn
+  .ant-menu-item-selected,
+  .ant-menu-submenu-selected {
+    font-weight: 600;
+  }
+  .ant-menu-submenu-title,
+  .ant-menu-item {
+    height: 50px !important;
+  }
+}
