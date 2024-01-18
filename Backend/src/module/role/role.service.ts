@@ -1,15 +1,15 @@
 import { Injectable } from '@nestjs/common';
 import { Repository } from 'typeorm';
-import { User } from './user.entity';
+import { Role } from './role.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 
 @Injectable()
-export class UserService {
+export class RoleService {
   constructor(
-    @InjectRepository(User)
-    private readonly userService: Repository<User>,
+    @InjectRepository(Role)
+    private readonly roleService: Repository<Role>,
   ) {}
   getHello(): any {
-    return this.userService.find();
+    return this.roleService.find();
   }
 }
